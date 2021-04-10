@@ -1,0 +1,61 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 854px;
+    background-image: url('https://uploaddeimagens.com.br/images/003/183/539/original/fundo.jpg?1617715882');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .calculadora {
+    width: 264px;
+    height:360px;
+    background-image: url('https://uploaddeimagens.com.br/images/003/183/466/original/pronto.png?1617713941');
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .mostra {
+    position: absolute;
+    font-size:13px;
+    font-weight:bold;
+    top: 225px;
+    left: calc(50% - 255px);
+    width: 500px;
+    text-align: center;
+  }
+
+.container button {
+    border: 0;
+    color: #ffffff;
+    background: #5900b3;
+    font-weight:bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    borde-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: .3s;
+  }
